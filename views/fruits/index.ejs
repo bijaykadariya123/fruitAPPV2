@@ -5,6 +5,8 @@
     <%- include('../partials/header.ejs') %>
     <main>
         <div>
+            <p><%= user%> </p>
+            <a href="/user/logout"><button>Logout</button></a>
             <a href="/fruit/new">Create New Fruit</a>
             <% for (fruit of fruits) { %>
                 <article>
